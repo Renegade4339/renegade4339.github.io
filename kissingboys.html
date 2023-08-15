@@ -35,9 +35,10 @@ var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator
       let isMobileDevice = regexp.test(details);
       
       if (isMobileDevice) {
-         document.write("<div id="he"></div>");
+         /*document.write("<div id="he"></div>");*/
+	 document.body.innerHTML +='<div id="he"></div>';
       } else {
-         document.write("<h3>Its a Desktop !</h3>");
+         document.body.innerHTML +='<div id="hepc"></div>';
       }
    </script>
 	<div id="upper_left"></div>
