@@ -21,7 +21,25 @@ var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator
   }
 </script>
 </audio>
-	<div id="he"></div>
+   <script>
+      /* Storing user's device details in a variable*/
+      let details = navigator.userAgent;
+      
+      /* Creating a regular expression
+      containing some mobile devices keywords
+      to search it in details string*/
+      let regexp = /android|iphone|kindle|ipad/i;
+      
+      /* Using test() method to search regexp in details
+      it returns boolean value*/
+      let isMobileDevice = regexp.test(details);
+      
+      if (isMobileDevice) {
+         document.write("<div id="he"></div>");
+      } else {
+         document.write("<h3>Its a Desktop !</h3>");
+      }
+   </script>
 	<div id="upper_left"></div>
 	<div id="upper_right"></div>
 	<div id="lower_left"></div>
