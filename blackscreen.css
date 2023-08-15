@@ -1,24 +1,11 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-   
-
    @font-face{
-font-family: "Bluescreen";
-src: url('https://renegade4339.neocities.org/BSOD.ttf');
-}
-
-@font-face {
-font-family: 'MyFontFamily';
-src: url('myfont-webfont.eot?#iefix') format('embedded-opentype'), 
-     url('myfont-webfont.woff') format('woff'), 
-     url('https://Renegade4339.neocities.org/BSOD.ttf')  format('truetype'),
-     url('myfont-webfont.svg#svgFontName') format('svg');
-}
+font-family: "Blackscreen";
+src: url('BSOD.ttf');
+  }
 
 
 body {
   background-color: #000000;
   color: magenta;
-  font-family: 'Bluescreen';
+  font-family: 'Blackscreen';
 }
