@@ -1,0 +1,27 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+   @font-face{
+font-family: "DTSans";
+src: url('https://renegade4339.neocities.org/dt-sans.ttf');
+}
+
+   @font-face{
+font-family: "DTMono";
+src: url('https://renegade4339.neocities.org/dt-mono.ttf');
+}
+/*
+font-face {
+font-family: 'DTSans';
+src: url('myfont-webfont.eot?#iefix') format('embedded-opentype'), 
+     url('myfont-webfont.woff') format('woff'), 
+     url('https://Renegade4339.neocities.org/dt-sans.ttf')  format('truetype'),
+     url('myfont-webfont.svg#svgFontName') format('svg');
+}
+*/
+body {
+  background-color: black;
+  color: magenta;
+  font-family: 'DTSans';
+}

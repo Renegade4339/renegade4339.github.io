@@ -1,0 +1,19 @@
+/* The CSS file is for an HTML page dedicated to MyrTheMoth. */
+
+   @font-face{
+font-family: "Void";
+src: url('https://renegade4339.neocities.org/BSOD.ttf');
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Void';
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
