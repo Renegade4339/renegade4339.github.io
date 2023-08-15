@@ -4,12 +4,12 @@
 
    @font-face{
 font-family: "DTSans";
-src: url('../renegade4339.github.io/dt-sans.ttf');
+src: url('dt-sans.ttf');
 }
 
    @font-face{
 font-family: "DTMono";
-src: url('../renegade4339.github.io/dt-mono.ttf');
+src: url('dt-mono.ttf');
 }
 /*
 font-face {
