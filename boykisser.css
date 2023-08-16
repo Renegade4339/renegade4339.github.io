@@ -14,7 +14,7 @@ body {
 	width: 190px; height: 173px;
 	position: absolute;
 	top: 0; left: 0;
-	background-image: url("/boykiss.gif");
+	background-image: url("boykiss.gif");
 	background-repeat: no-repeat;
 }
 
@@ -23,7 +23,7 @@ body {
 	position: absolute;
 	top: 0;
 	right: 0%;
-	background-image: url("/boykiss.gif");
+	background-image: url("boykiss.gif");
 	background-repeat: no-repeat;
 }
 
@@ -31,7 +31,7 @@ body {
 	width: 190px; height: 173px;
 	position: absolute;
 	bottom: 0%; left: 0;
-	background-image: url("/boykiss.gif");
+	background-image: url("boykiss.gif");
 	background-repeat: no-repeat;
 }
 
@@ -40,7 +40,7 @@ body {
 	bottom: 0%;
 	right: 0%;
 	position: absolute;
-	background-image: url("/boykiss.gif");
+	background-image: url("boykiss.gif");
 	background-repeat: no-repeat;
 }
 /*
@@ -71,7 +71,7 @@ body {
   left: -50%;
   right: 0;
   height: 100%;
-	background-image: url("/he.png");
+	background-image: url("he.png");
 	background-repeat: no-repeat;
 	/*background-position: center;
   align-self: flex-end;*/
@@ -79,7 +79,7 @@ body {
 }
 
 #hepc {
-  background-image: url("/he.jpg");
+  background-image: url("he.jpg");
 
   height: 100%;
 
